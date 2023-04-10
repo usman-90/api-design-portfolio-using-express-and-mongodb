@@ -24,7 +24,7 @@ export const postArticles =async ( req, res) => {
 }
 
 export const updateArticles = async( req, res) => {
-    // try {
+    try {
         const col =await user_collection()
         const id = new ObjectId(`${req.user.id}`)
     
@@ -55,14 +55,14 @@ export const updateArticles = async( req, res) => {
         res.status(200)
         res.end()
         
-    // } catch (error) {
-    //     res.status(500)
-    //     res.json({
-    //         message:"Error found, Maybe input is not valid",
-    //         error,
-    //     })
-    //     res.end()        
-    // }
+    } catch (error) {
+        res.status(500)
+        res.json({
+            message:"Error found, Maybe input is not valid",
+            error,
+        })
+        res.end()        
+    }
 
 }
 
