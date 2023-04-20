@@ -107,4 +107,55 @@
       
 </table>
 
-<h3>To be continued...<h3/>
+<h2>Get Methods:</h2>
+<table>
+    <tr>
+        <td>Name</td>
+        <td>Description</td>
+        <td>Endpoint</td>
+    </tr>
+    <tr>
+        <td>Fetch User info</td>
+        <td>It allows user to fetch his/her basic information</td>
+        <td>"https://portfolio-api-d7k5.onrender.com/api/getUserIfno"</td>
+      <tr/>
+      <tr>
+        <td>Fetch All Certificates</td>
+        <td>It allows user to fetch all the certificates and achievements information saved</td>
+        <td>"https://portfolio-api-d7k5.onrender.com/api/getAllCertificates"</td>
+    </tr>
+    <tr>
+        <td>Fetch One Certificate</td>
+        <td>It allows user to fetch a single certificate by certificate id</td>
+        <td>"https://portfolio-api-d7k5.onrender.com/api/getOnecertificate/:id"</td>   
+    </tr>
+    <tr>
+        <td>Get Skills</td>
+        <td>It allows user to fetch his/her all skills information</td>
+        <td>"https://portfolio-api-d7k5.onrender.com/api/getskills"</td>
+    </tr>
+    <tr>
+        <td>Get All Articles</td>
+        <td>It allows user to fetch all the saved articles</td>
+        <td>"https://portfolio-api-d7k5.onrender.com/api/getAllArticles"</td>
+     </tr>
+   <tr>
+        <td>Get One Article</td>
+        <td>It allows user to fetch a single article by Id</td>
+        <td>"https://portfolio-api-d7k5.onrender.com/api/postOneArticle/:id"</td>
+  </tr>
+  <tr>
+        <td>Get Messages/td>
+        <td>It allows user to fetch All the messages</td>
+        <td>"https://portfolio-api-d7k5.onrender.com/api/getMessages"</td>
+  </tr>
+  <tr>
+        <td>Get Services</td>
+        <td>It allows user to fetch his/her all the services</td>
+        <td>"https://portfolio-api-d7k5.onrender.com/api/getServices"</td>
+  </tr>
+    
+      
+</table>
+
+<h3>To be continued... <h3/>
